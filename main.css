@@ -203,3 +203,37 @@ h1, h2, h3, h4, h5, h6 {
 	border: 1px solid rgba(0,0,0,0.125);
 }
 
+
+
+.card>div.img {
+    height: 55%;
+    background-color: brown;
+}
+.card>div.text {
+    height: 45%;
+    background-color:dodgerblue;
+}
+
+.img-left {
+    width: 65%;
+    background-color: aqua;
+    display: inline-block;
+}
+.img-right {
+    width: 35%;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+.img-left>img {
+    padding: 15px;
+    width: 100%;
+}
+
+.img-right>div {
+    padding: 15px;
+}
+.img-right>div>img {
+    margin: 3px 0px;
+    width: 100%;
+}
