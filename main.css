@@ -99,12 +99,18 @@ span.currency {
 	justify-content: space-around;
 	align-items: center;
 	height: inherit;
+	padding: 0px 15%;
 }
 
 .my-flex-container > div {
 	height: inherit;
 	padding: 25px 10px;
 }
+
+.my-flex-container>div:nth-child(3) {
+	min-width: 114px;
+}
+
 
 .my-flex-container > div > a {
 	font-weight: 500;
@@ -276,6 +282,10 @@ a.btn:hover>p {
     align-items: center;
     justify-content: center;
 }
+a>p {
+	text-align: center;
+	vertical-align: middle;
+}
 
 .all-categories {
     margin-top: 10px;
@@ -292,6 +302,7 @@ a.btn:hover>p {
 .all-categories>p {
     color: #606975;
     font-size: 14px;
+	margin-top: 9px;
 }
 
 a.all-categories:hover {
