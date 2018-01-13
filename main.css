@@ -337,8 +337,11 @@ a.all-categories:hover>p {
 }
 
 .countdown-container {
+	height: 100%;
     background-color: #f5f5f5;
 	border-radius: 8px;
+	display: flex;
+	justify-content: center;
 }
 
 .limited-img {
@@ -356,7 +359,21 @@ a.all-categories:hover>p {
 }
 .collection {
 	width: 100%;
-	height: 400px;
+	height: 450px;
 	background-color: #f5f5f5;
+	background-image: url(images/collection.jpg);
 	border-radius: 8px;
+}
+
+.countdown-container>div:nth-child(3) {
+	align-items: flex-end;
+}
+
+.limited-text {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.offer-button {
+	
 }
