@@ -154,8 +154,6 @@ span.currency {
 .cart {
 	width: 130px;
 	border-radius: 22px;
-
-
 }
 
 .cart > div {
@@ -277,4 +275,53 @@ a.btn:hover>p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.all-categories {
+    margin-top: 10px;
+    border: 1px solid #e1e7ec;
+    height: 44px;
+    border-radius: 22px;
+    margin-bottom: 72px;
+}
+
+.all-categories:hover {
+    background-color: #f5f5f5;
+}
+
+.all-categories>p {
+    color: #606975;
+    font-size: 14px;
+}
+
+a.all-categories:hover {
+    background-color: #f5f5f5;
+}
+
+a.all-categories:hover>p {
+    color: #606975;
+}
+
+.limited-offer {
+    background-color: yellow;
+    padding: 10px;
+}
+.limited {
+    background-color: aqua;
+    height: 50%;
+    display: flex;
+    padding: 15px;
+}
+
+.countdown-container {
+    background-color: dodgerblue;
+}
+
+.limited-img {
+    background-color: darksalmon;
+}
+
+.old {
+    background-color: blueviolet;
+    height: 50%;
 }
